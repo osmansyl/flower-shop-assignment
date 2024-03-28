@@ -36,7 +36,11 @@ body {
 }
 
 /* Main Section */
+
+/* First Section */
+
 .first-section{
+    /* width: 600px; */
 
 }
 .first-section-hp{
@@ -49,4 +53,26 @@ body {
 .section-description{
     font-size: 10px;
     font-weight: 300;
+}
+.section-image{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    
+}
+
+.img-head img {
+    width: 200px;
+
+}
+.img-head{
+    text-decoration: underline;
+}
+/* First Section End */
+
+/* Skill Section */
+
+.skill-section{
+    display: flex;
+    gap: 20px;
 }
